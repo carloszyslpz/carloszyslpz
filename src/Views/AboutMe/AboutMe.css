@@ -1,0 +1,6 @@
+.main-about {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  width: 100%;
+}
