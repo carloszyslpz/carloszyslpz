@@ -2,13 +2,10 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div className="main-home">
-      <div className="text-home">
-        <p>Hola, soy</p>
-        <h1>Carlos Zayas</h1>
-        <h2>Front-End Developer Jr.</h2>
-      </div>
-      <div>IMAGEN CON CSS</div>
+    <div className="main-home text-home">
+      <p>Hola, soy</p>
+      <h1 className="name-home">Carlos Zayas</h1>
+      <h2>Front-End Developer Jr.</h2>
       <video
         className="video-background"
         src="./fondo-proyecto.mp4"

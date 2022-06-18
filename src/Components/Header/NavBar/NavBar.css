@@ -4,7 +4,6 @@
   align-items: center;
   padding: 1rem 5rem;
   width: 100%;
-  background: transparent;
 }
 ul {
   display: flex;
@@ -16,5 +15,5 @@ li {
   font-weight: 700;
   list-style: none;
   margin-right: 2rem;
-  text-decoration: underline white;
+  text-decoration: underline black;
 }
