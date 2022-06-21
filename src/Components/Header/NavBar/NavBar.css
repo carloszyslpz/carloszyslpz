@@ -5,15 +5,32 @@
   padding: 1rem 5rem;
   width: 100%;
 }
+.nav p {
+  color: white;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-shadow: red 0 0, cyan 0 0;
+  transition: text-shadow 200ms;
+}
+.nav Button {
+  color: white;
+}
+.nav Button:hover {
+  background-color: #020024;
+}
+.nav p:hover {
+  text-shadow: red -6px 0, cyan 6px 0;
+}
 ul {
   display: flex;
   list-style: none;
   box-sizing: border-box;
   margin: 0;
 }
-li {
-  font-weight: 700;
-  list-style: none;
-  margin-right: 2rem;
-  text-decoration: underline black;
+.nav-logo,
+.nav-inicio,
+.nav-sobreMi,
+.nav-portafolio,
+.nav-skills {
+  text-decoration: none;
 }

@@ -1,23 +1,29 @@
 import "./NavBar.css";
 import { Link } from "react-router-dom";
+import ButtonGroup from "@mui/material/ButtonGroup/ButtonGroup";
+import Button from "@mui/material/Button/Button";
 
 const Navbar = () => {
   return (
     <div className="nav">
-      <p>Carlos Zayas</p>
+      <Link to="/" className="nav-logo">
+        <p>Carlos Zayas</p>
+      </Link>
       <ul>
-        <Link to="/">
-          <li>Inicio</li>
-        </Link>
-        <Link to="/SobreMi">
-          <li>Sobre Mi</li>
-        </Link>
-        <Link to="/Portafolio">
-          <li>Portafolio</li>
-        </Link>
-        <Link to={"/Skills"}>
-          <li>Skills</li>
-        </Link>
+        <ButtonGroup variant="text" aria-label="text button group">
+          <Link to={"/"} className="nav-inicio">
+            <Button>Inicio</Button>
+          </Link>
+          <Link to={"/SobreMi"} className="nav-sobreMi">
+            <Button>Sobre Mi</Button>
+          </Link>
+          <Link to={"/Portafolio"} className="nav-portafolio">
+            <Button>Portafolio</Button>
+          </Link>
+          <Link to={"/Skills"} className="nav-skills">
+            <Button>Skills</Button>
+          </Link>
+        </ButtonGroup>
       </ul>
     </div>
   );

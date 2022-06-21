@@ -17,14 +17,3 @@
 .name-home:hover {
   text-shadow: red -6px 0, cyan 6px 0;
 }
-.video-background {
-  position: absolute;
-  bottom: 0px;
-  right: 0px;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -1;
-  overflow: hidden;
-}
