@@ -14,9 +14,11 @@
 }
 .nav Button {
   color: white;
+  margin-left: 0.5rem;
 }
 .nav Button:hover {
-  background-color: #020024;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(3px);
 }
 .nav p:hover {
   text-shadow: red -6px 0, cyan 6px 0;

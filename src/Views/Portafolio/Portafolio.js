@@ -1,7 +1,7 @@
-import React from "react";
+import "./Portafolio.css";
 
 const Portafolio = () => {
-  return <div>Portafolio</div>;
+  return <div className="main-portafolio">Portafolio</div>;
 };
 
 export default Portafolio;
