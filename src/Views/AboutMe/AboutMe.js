@@ -1,6 +1,7 @@
 import "./AboutMe.css";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
+import { Button } from "@mui/material";
 
 const AboutMe = () => {
   return (
@@ -9,9 +10,9 @@ const AboutMe = () => {
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
             component="img"
-            height="400"
-            image="./foto-portafolio.jpg"
-            alt="green iguana"
+            height="350"
+            image="./img/foto-portafolio.jpg"
+            alt="foto-portafolio"
           />
         </Card>
       </div>
@@ -28,6 +29,10 @@ const AboutMe = () => {
           congue dapibus. Quisque pretium placerat imperdiet. Praesent eu odio
           maximus, mattis erat sed, fringilla nunc.
         </p>
+        <div className="cv-btns">
+          <Button>Ver CV</Button>
+          <Button>Descargar CV</Button>
+        </div>
       </div>
     </div>
   );

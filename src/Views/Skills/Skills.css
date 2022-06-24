@@ -1,4 +1,44 @@
 .main-skills {
   height: 80vh;
   width: 100%;
+  display: grid;
+  row-gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto;
+  font-size: 6rem;
+  color: white;
+}
+#html-wordmark:hover {
+  color: #e14a22;
+  transition: 0.75s;
+}
+#css-wordmark:hover {
+  color: #264ee4;
+  transition: 0.75s;
+}
+#javascript-wordmark:hover {
+  color: #f7df1e;
+  transition: 0.75s;
+}
+#react-wordmark:hover {
+  color: #00a4d3;
+  transition: 0.75s;
+}
+#git-wordmark:hover {
+  color: #f05133;
+  transition: 0.75s;
+}
+#github-wordmark:hover {
+  color: black;
+  transition: 0.75s;
+}
+#bootstrap-wordmark:hover {
+  color: #583d81;
+  transition: 0.75s;
+}
+#materialui-wordmark:hover {
+  color: #0288d1;
+  transition: 0.75s;
 }
