@@ -9,19 +9,27 @@ const Navbar = () => {
       <Link to="/" className="nav-logo">
         <p>Carlos Zayas</p>
       </Link>
-      <ul>
-        <ButtonGroup variant="text" aria-label="text button group">
+      <input hidden id="menu__toggle" type="checkbox" />
+      <label className="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <ul className="menu__box">
+        <ButtonGroup
+          variant="text"
+          aria-label="text button group"
+          className="menu__item"
+        >
           <Link to={"/"} className="nav-inicio">
-            <Button>Inicio</Button>
+            <Button className="menu__item">Inicio</Button>
           </Link>
           <Link to={"/SobreMi"} className="nav-sobreMi">
-            <Button>Sobre Mi</Button>
+            <Button className="menu__item">Sobre Mi</Button>
           </Link>
           <Link to={"/Portafolio"} className="nav-portafolio">
-            <Button>Portafolio</Button>
+            <Button className="menu__item">Portafolio</Button>
           </Link>
           <Link to={"/Skills"} className="nav-skills">
-            <Button>Skills</Button>
+            <Button className="menu__item">Skills</Button>
           </Link>
         </ButtonGroup>
       </ul>

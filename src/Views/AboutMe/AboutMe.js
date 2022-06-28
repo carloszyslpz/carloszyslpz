@@ -7,10 +7,10 @@ const AboutMe = () => {
   return (
     <div className="main-about">
       <div className="card-img">
-        <Card sx={{ maxWidth: 345 }}>
+        <Card>
           <CardMedia
+            className="cardMedia-img"
             component="img"
-            height="350"
             image="./img/foto-portafolio.jpg"
             alt="foto-portafolio"
           />
