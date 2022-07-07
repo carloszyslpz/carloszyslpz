@@ -2,26 +2,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
   max-width: 100%;
 }
-.nav p {
-  color: white;
-  font-size: 25px;
-  letter-spacing: 5px;
-  text-shadow: red 0 0, cyan 0 0;
-  transition: text-shadow 200ms;
+.nav-logo {
+  width: 7rem;
+}
+.nav-logo:hover {
+  transition: 0.75s;
+  filter: brightness(2);
 }
 .nav Button {
   color: white;
-  margin-left: 0.5rem;
+  margin-left: 4rem;
 }
 .nav Button:hover {
   background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(3px);
-}
-.nav p:hover {
-  text-shadow: red -6px 0, cyan 6px 0;
 }
 ul {
   display: flex;
@@ -94,8 +92,8 @@ ul {
     position: absolute;
     top: 0;
     left: -100%;
-    width: fit-content;
-    height: fit-content;
+    width: 50%;
+    height: 100%;
     margin: 0;
     padding: 80px 0;
     list-style: none;
@@ -115,5 +113,20 @@ ul {
   .nav-portafolio,
   .nav-skills {
     margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .nav Button {
+    margin-left: 0rem;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .nav Button {
+    margin-left: 0rem;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .nav Button {
+    margin-left: 0rem;
   }
 }

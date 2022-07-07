@@ -6,8 +6,8 @@ import Button from "@mui/material/Button/Button";
 const Navbar = () => {
   return (
     <div className="nav">
-      <Link to="/" className="nav-logo">
-        <p>Carlos Zayas</p>
+      <Link to="/">
+        <img src="./img/logo.png" alt="Logo" className="nav-logo" />
       </Link>
       <input hidden id="menu__toggle" type="checkbox" />
       <label className="menu__btn" for="menu__toggle">

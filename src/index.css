@@ -5,10 +5,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Raleway", sans-serif;
-  background-image: url("/public/img/fondo-proyecto.jpg");
+  background-image: url("/public/img/fondo-proyecto.png");
   background-position: absolute;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-image: url("/public/img/fondo-proyecto-movil.png");
+  }
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

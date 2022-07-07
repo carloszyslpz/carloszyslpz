@@ -1,6 +1,7 @@
 import "./AboutMe.css";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
+import { ExternalLink } from "react-external-link";
 import { Button } from "@mui/material";
 
 const AboutMe = () => {
@@ -30,8 +31,14 @@ const AboutMe = () => {
           maximus, mattis erat sed, fringilla nunc.
         </p>
         <div className="cv-btns">
-          <Button>Ver CV</Button>
-          <Button>Descargar CV</Button>
+          <Button>
+            <ExternalLink
+              className="cv-btn"
+              href="https://drive.google.com/file/d/1TdGH0mXGGco_AWdET37CSjptX2uPvUe6/view?usp=sharing"
+            >
+              Ver CV
+            </ExternalLink>
+          </Button>
         </div>
       </div>
     </div>
