@@ -12,8 +12,9 @@
 @media only screen and (max-width: 576px) {
   .main-skills {
     height: 95vh;
-    grid-template-columns: 25% 25% 25%;
+    grid-template-columns: 25% 25%;
     justify-content: center;
+    column-gap: 6rem;
   }
 }
 @media only screen and (max-width: 414px) {

@@ -7,7 +7,7 @@
   max-width: 100%;
 }
 .nav-logo {
-  width: 7rem;
+  width: 5.5rem;
 }
 .nav-logo:hover {
   transition: 0.75s;
@@ -36,7 +36,7 @@ ul {
 }
 @media only screen and (max-width: 576px) {
   .nav {
-    justify-content: center;
+    justify-content: flex-end;
   }
   @media only screen and (max-width: 360px) {
     .nav p {
