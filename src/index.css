@@ -1,10 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Raleway", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
   background-image: url("/public/img/fondo-proyecto.png");
   background-position: absolute;
   background-repeat: no-repeat;

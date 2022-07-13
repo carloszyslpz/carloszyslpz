@@ -3,7 +3,7 @@
   justify-content: space-evenly;
   min-height: 80vh;
   align-items: center;
-  color: white;
+  color: #1f64f6;
 }
 .container-descripcion {
   user-select: none;
@@ -16,31 +16,18 @@
   width: 500px;
   column-span: 150px auto;
 }
-.container-descripcion p:hover {
-  background-color: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 0 10px;
-  transition: 0.75s;
-}
 .container-descripcion h1 {
-  font-weight: bolder;
+  color: white;
+  font-weight: lighter;
+  font-family: "Major Mono Display", monospace;
   letter-spacing: 5px;
-  text-shadow: red 0 0, cyan 0 0;
-  transition: text-shadow 200ms;
-}
-.container-descripcion h1:hover {
-  text-shadow: red -6px 0, cyan 6px 0;
+  text-shadow: cyan 0 0 4px;
 }
 .cardMedia-img {
   max-width: 345px;
 }
-.card-img:hover {
-  background-color: rgba(255, 255, 255, 0.05);
-  box-shadow: 0 0 10px;
-  transition: 0.75s;
-}
 .container-descripcion p {
   font-size: large;
-  font-weight: normal;
   margin-top: 2rem;
   padding: 10px;
   border-radius: 2rem;
@@ -52,8 +39,9 @@
   margin-top: 1rem;
 }
 .cv-btn {
-  color: white;
+  color: #1f64f6;
   text-decoration: none;
+  font-family: "IBM Plex Mono", monospace;
 }
 .cv-btns Button:hover {
   background-color: rgba(255, 255, 255, 0.05);
@@ -82,5 +70,6 @@
   }
   .container-descripcion h1 {
     padding: 0.5rem;
+    font-size: 1.5rem;
   }
 }

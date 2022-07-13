@@ -18,7 +18,7 @@ const AboutMe = () => {
         </Card>
       </div>
       <div className="container-descripcion">
-        <h1>Carlos Zayas</h1>
+        <h1>CARLOS ZAYAS</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit
           amet hendrerit tortor. Nunc vel felis vestibulum, varius tortor quis,
