@@ -8,6 +8,7 @@
 }
 .nav-logo {
   width: 5.5rem;
+  height: 5rem;
 }
 .nav-logo:hover {
   transition: 0.75s;

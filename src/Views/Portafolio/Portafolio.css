@@ -1,3 +1,51 @@
 .main-portafolio {
   height: 90vh;
+  display: grid;
+  row-gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 50% 50%;
+  padding: 50px;
+}
+
+.main-portafolio img {
+  max-width: 500px;
+  padding: 30px;
+}
+
+.main-portafolio Button {
+  color: #1f64f6;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.main-portafolio Button:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(3px);
+}
+
+.portfolio-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.portfolio-btn {
+  color: #1f64f6;
+  font-family: "IBM Plex Mono", monospace;
+  text-decoration: none;
+}
+
+.portfolio-card:hover {
+  box-shadow: cyan 0 0 4px;
+}
+
+@media only screen and (max-width: 576px) {
+  .main-portafolio {
+    height: 95vh;
+    grid-template-columns: 50% 50%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    column-gap: 6rem;
+  }
 }
