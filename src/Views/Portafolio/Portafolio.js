@@ -68,12 +68,18 @@ const Portafolio = () => {
           </CardContent>
           <CardActions className="portfolio-btns">
             <Button>
-              <ExternalLink className="portfolio-btn" href="#">
+              <ExternalLink
+                className="portfolio-btn"
+                href="https://juego-adivina-numero.netlify.app/"
+              >
                 Ver Página
               </ExternalLink>
             </Button>
             <Button>
-              <ExternalLink className="portfolio-btn" href="#">
+              <ExternalLink
+                className="portfolio-btn"
+                href="https://github.com/carloszyslpz/Juego-Adivina-Numero.git"
+              >
                 Código
               </ExternalLink>
             </Button>
