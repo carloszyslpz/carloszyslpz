@@ -92,6 +92,47 @@ const Portafolio = () => {
           </CardActions>
         </Card>
       </div>
+      <div>
+        <Card
+          sx={{ maxWidth: 345, backgroundColor: "rgba(255, 255, 255, 0.05)" }}
+          className="portfolio-card"
+        >
+          <CardMedia
+            component="img"
+            alt="Adivina Mi Número"
+            image="img/DennDenn.png"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div" color="white">
+              DennDenn Design & Illustration
+            </Typography>
+            <Typography gutterBottom variant="h6" component="div" color="white">
+              HTML, CSS, JavaScript, ReactJS, Material UI, Firebase
+            </Typography>
+            <Typography variant="body2" color="white;">
+              Tienda/Portafolio profesional de diseños e ilustraciones
+            </Typography>
+          </CardContent>
+          <CardActions className="portfolio-btns">
+            <Button>
+              <ExternalLink
+                className="portfolio-btn"
+                href="https://denndenn-design-illustration.vercel.app/"
+              >
+                Ver Página
+              </ExternalLink>
+            </Button>
+            <Button>
+              <ExternalLink
+                className="portfolio-btn"
+                href="https://github.com/carloszyslpz/petonets-app.git"
+              >
+                Código
+              </ExternalLink>
+            </Button>
+          </CardActions>
+        </Card>
+      </div>
     </div>
   );
 };

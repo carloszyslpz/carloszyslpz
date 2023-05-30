@@ -25,8 +25,8 @@ const AboutMe = () => {
           creatividad con mis habilidades técnicas para poder crear experiencias
           web que sean de utilidad. Estoy en busqueda de una oportunidad laboral
           que me haga explotar mis habilidades y conocimientos, así como que me
-          ayude a crecer profesional y personalmente. Los perritos son mejor que
-          los gatos, no pienso discutirlo.
+          ayude a crecer profesional y personalmente. Las quesadillas con queso
+          y los perritos son mejores que los gatos, no pienso discutirlo.
         </p>
         <div className="cv-btns">
           <Button>
