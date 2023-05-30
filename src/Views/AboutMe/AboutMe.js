@@ -20,15 +20,13 @@ const AboutMe = () => {
       <div className="container-descripcion">
         <h1>CARLOS ZAYAS</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit
-          amet hendrerit tortor. Nunc vel felis vestibulum, varius tortor quis,
-          faucibus magna. Nullam diam augue, lacinia sit amet ultricies at,
-          ornare nec augue. Phasellus nec lorem nibh. Cras eget eros nunc.
-          Integer purus ligula, viverra id egestas id, fermentum eget ante.
-          Donec lacus est, tristique sed justo a, hendrerit porta ex. Vestibulum
-          ut neque in tortor auctor luctus ac sit amet nunc. Etiam fermentum
-          congue dapibus. Quisque pretium placerat imperdiet. Praesent eu odio
-          maximus, mattis erat sed, fringilla nunc.
+          Soy desarrollador front end junior, apasionado por la ciencia ficción,
+          tecnología, la música y la fotografía. Mi objetivo es combinar mi
+          creatividad con mis habilidades técnicas para poder crear experiencias
+          web que sean de utilidad. Estoy en busqueda de una oportunidad laboral
+          que me haga explotar mis habilidades y conocimientos, así como que me
+          ayude a crecer profesional y personalmente. Los perritos son mejor que
+          los gatos, no pienso discutirlo.
         </p>
         <div className="cv-btns">
           <Button>
