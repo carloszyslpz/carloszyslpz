@@ -99,7 +99,7 @@ const Portafolio = () => {
         >
           <CardMedia
             component="img"
-            alt="Adivina Mi Número"
+            alt="DennDenn Design & Illustration"
             image="img/DennDenn.png"
           />
           <CardContent>
@@ -126,6 +126,47 @@ const Portafolio = () => {
               <ExternalLink
                 className="portfolio-btn"
                 href="https://github.com/carloszyslpz/petonets-app.git"
+              >
+                Código
+              </ExternalLink>
+            </Button>
+          </CardActions>
+        </Card>
+      </div>
+      <div>
+        <Card
+          sx={{ maxWidth: 345, backgroundColor: "rgba(255, 255, 255, 0.05)" }}
+          className="portfolio-card"
+        >
+          <CardMedia
+            component="img"
+            alt="E-commerce"
+            image="img/ecommerce.png"
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div" color="white">
+              E-commerce
+            </Typography>
+            <Typography gutterBottom variant="h6" component="div" color="white">
+              HTML, CSS, JavaScript, ReactJS, Firebase
+            </Typography>
+            <Typography variant="body2" color="white;">
+              Tienda en línea de diversos productos
+            </Typography>
+          </CardContent>
+          <CardActions className="portfolio-btns">
+            <Button>
+              <ExternalLink
+                className="portfolio-btn"
+                href="https://project-e-commerce-reactjs.vercel.app/"
+              >
+                Ver Página
+              </ExternalLink>
+            </Button>
+            <Button>
+              <ExternalLink
+                className="portfolio-btn"
+                href="https://github.com/carloszyslpz/e-commerce.git"
               >
                 Código
               </ExternalLink>

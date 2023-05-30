@@ -1,5 +1,5 @@
 .main-portafolio {
-  height: 90vh;
+  height: fit-content;
   display: grid;
   justify-items: flex-start;
   margin: 5rem;
