@@ -33,12 +33,18 @@ const Portafolio = () => {
           </CardContent>
           <CardActions className="portfolio-btns">
             <Button>
-              <ExternalLink className="portfolio-btn" href="#">
+              <ExternalLink
+                className="portfolio-btn"
+                href="https://el-surtidor-comprobacion-pago.vercel.app/comprobacion_pago.html"
+              >
                 Ver Página
               </ExternalLink>
             </Button>
             <Button>
-              <ExternalLink className="portfolio-btn" href="#">
+              <ExternalLink
+                className="portfolio-btn"
+                href="https://github.com/carloszyslpz/El-Surtidor-Comprobacion-Pago.git"
+              >
                 Código
               </ExternalLink>
             </Button>
@@ -70,7 +76,7 @@ const Portafolio = () => {
             <Button>
               <ExternalLink
                 className="portfolio-btn"
-                href="https://juego-adivina-numero.netlify.app/"
+                href="https://juego-adivina-numero.vercel.app/"
               >
                 Ver Página
               </ExternalLink>

@@ -32,7 +32,7 @@ const AboutMe = () => {
           <Button>
             <ExternalLink
               className="cv-btn"
-              href="https://drive.google.com/file/d/1TdGH0mXGGco_AWdET37CSjptX2uPvUe6/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Dd5J7kIK9PnORRj9QZBZhROA6z6Nm58U/view?usp=sharing"
             >
               Ver CV
             </ExternalLink>
